@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Can You Add to Your Compost?</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+      <button id="homeButton">
+        <a href="#mainBox" id="homeButton">
+          <span class="material-symbols-outlined">home</span>
+        </a>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="#WhatisComposting">What is Composting?</a></li>
+      <li><a href="#BenefitsofComposting">The Benefits of Composting</a></li>
+    </ul>
+  </nav>
+    </header>
+    <div id="mainBox">
+      <h1>What Can You Add to Your Compost?</h1>
+      <form>
+      <input type="text" id="inputer" placeholder="Enter here...">
+      <button type="submit" id="checker">Check</button>
+    </form>
+    </div>
+    <div id="infoBox">
+      <h2>Not sure if it’s compost-friendly?</h2>
+      <p>Wondering if an item is compost-friendly? Adding the wrong materials can disrupt the pH balance of your compost and potentially ruin your compost pile. Use our handy search tool below to check if a specific item is safe for composting.</p>
+    <div id="instructions">  
+      <h2>How It Works:</h2>
+      <ul>
+        <li>
+          Search: Enter the item you’re considering adding to your compost.
+        </li>
+        <li>
+          Check: See if it's safe and what impact it might have.
+        </li>
+        <li>
+          Learn: Get tips on how to compost it correctly.
+        </li>
+      </ul>
+    </div>
+      <h2>Why It Matters?</h2>
+      <p>Improper composting can lead to imbalanced pH levels, which can harm the composting process. Our guide helps you make informed choices, ensuring a healthy, thriving compost pile.</p>
+    </div>
+    <section id="WhatisComposting">
+      <h2>
+        What is Composting?
+      </h2>
+      <p>
+        Composting is a biological process where organic materials, such as food scraps, leaves, branches, and sawdust, are transformed into valuable compost. Compost is a natural fertilizer that enriches soil, improves its structure, and provides essential nutrients to plants. This process occurs thanks to microorganisms like bacteria and fungi that break down organic materials into simpler chemical compounds.
+      </p>
+      <div id="square">
+      <ol>
+        <li>
+        Collecting Materials: Use organic waste like vegetable scraps, fruits, eggshells, coffee grounds, paper, leaves, and grass. Avoid meat, fats, and dairy to prevent pests.
+        </li>
+        <li>
+          Preparing the Bin: Place organic materials in a well-ventilated compost bin or pile.
+        </li>
+        <li>
+          Mixing and Moistening: Regularly mix and moisten materials to ensure proper decomposition.
+        </li>
+        <li>
+          Heat Generation: Composting generates heat (50-70°C), speeding up the process.
+        </li>
+        <li>
+          Decomposition: In 3-6 months, materials break down into nutrient-rich compost for your garden.
+        </li>
+      </ol>
+      </div>
+      <div id="square">
+        <img src="image (1).png" alt="first composting image" id="firstImg">
+      </div>
+    </div>
+    </section>
+    <section id="BenefitsofComposting">
+      <h2>
+        Benefits of Composting
+      </h2>
+      <p>
+        Composting offers numerous benefits for both the environment and gardeners:
+      </p>
+      <ul>
+        <li>
+          <b>Waste Reduction: </b>Composting reduces the amount of organic waste sent to landfills, helping to decrease greenhouse gas emissions and lessen environmental impact.
+        </li>
+        <li>
+         <b>Soil Improvement:</b>Compost enriches the soil with organic matter, enhancing its structure, water retention capacity, and nutrient availability for plants.
+        </li>
+        <li>
+          <b>Cost Savings:</b> Using compost as a fertilizer can lower the costs of purchasing commercial fertilizers and soil conditioners.
+        </li>
+        <li>
+          <b>Biodiversity Boost: </b> Composting supports the development of beneficial microorganisms, earthworms, and other soil organisms that contribute to a healthy garden ecosystem.
+        </li>
+      </ul>
+    </section>
+    <div id="compostModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modalMessage"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
